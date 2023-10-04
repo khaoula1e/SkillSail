@@ -2,9 +2,16 @@ import React from 'react'
 
 const Navbar =() => {
     return (
-        <>
-        <p>Helloooooo</p>
-        </>
+        <div>
+            <div></div>
+            <div>
+                <ul>
+                <li className='p-4'>History</li>
+                <li className='p-4'>Notification</li>
+                <li className='p-4'>Me</li>
+                </ul>
+            </div>
+        </div>
     )
 };
 export default Navbar;
