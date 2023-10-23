@@ -1,6 +1,9 @@
 import React from 'react';
 import SecondaryNavbar from '../components/SecondryNavbar';
 import InfoPersonal from '../components/InfoPersonal';
+import TechnicalSkills from '../components/TechnicalSkills';
+import FilterInfoJob from '../components/filterInfoJob';
+import UploadCV from '../components/UploadCV';
 
 const ProfilePage = () => {
   return (
@@ -10,6 +13,11 @@ const ProfilePage = () => {
         
         <InfoPersonal/>
         <hr className='m-8'/>
+        <TechnicalSkills/>
+        <FilterInfoJob/>
+        <UploadCV/>
+        
+        
       </div>
       
     </>
